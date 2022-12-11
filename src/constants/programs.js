@@ -113,6 +113,22 @@ export const programs =[
     "terms":"uniq IP",
     "link":"https://ad.admitad.com/g/51f76eb9737e03ad1696de341f78e4",
   },
+  {
+    "offer_id": "8",
+    "offer_name": "My Kerfus Pet",
+    "subid": "ciac",
+    "subid1": "buddyPoints",
+    "currency": "pln",
+    "date": "2022-12-11",
+    "reward": {
+      "pl": 10,
+      "us": 15,
+    },
+    "imgUrl": "https://play-lh.googleusercontent.com/Z3K9lICdthl6LWLQJsZwoqsQ8kMS_S7rXInkbvw50_Z2pf3uaOdwb7-w35-Ep-6lYFu2=w240-h480-rw",
+    "description":"leave 5⭐⭐⭐⭐⭐, play at least 7days and watch at least 100 RewardedAds",
+    "terms":"it's a joke LOL",
+    "link":"http://bit.ly/kerfus",
+  },
 
   
 

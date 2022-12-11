@@ -48,3 +48,8 @@ input{
 input:focus{
   border: 3px solid rgb(1, 1, 41);
 }
+
+.info{
+  display: grid;
+  place-items: center;
+}
