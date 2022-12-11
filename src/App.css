@@ -12,6 +12,7 @@ html{
   min-height: 100vh;
   background: linear-gradient(to bottom, #040108, #2a8890);
   padding: 30px;
+  color: white;
 }
 .programmsContainer{
   display: flex;
@@ -30,4 +31,20 @@ html{
   color: white;
   text-align: center;
  
+}
+
+input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 25px 50px;
+  font-size: var(--main-font-size);
+  outline: none;
+  border: 3px solid transparent;
+ 
+  transition: all ease-in 0.1s;
+}
+
+input:focus{
+  border: 3px solid rgb(1, 1, 41);
 }
