@@ -4,12 +4,30 @@
   box-sizing: border-box;
 
 }
+html{
+  font-size: 70%;
+}
 .app{
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(to bottom, #040108, #2a8890);
+  padding: 30px;
 }
 .programmsContainer{
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  /* align-items: baseline; */
+  justify-content: center;
+
+}
+
+.app__header{
+ 
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+ 
 }

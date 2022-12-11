@@ -2,8 +2,14 @@ import {useState} from 'react'
 import RectButton from './Buttons';
 import './card.css'
 
-function ProgramCard({program}) {
-const { offer_id, offer_name, subid, subid1, currency, order_id, reward,imgUrl,description, terms } = program
+function ProgramCard({program,playerId}) {
+const { offer_id, offer_name, subid, subid1, currency, order_id, reward,imgUrl,description, terms, link} = program
+
+
+const subid2 = playerId?playerId:"FilszuRef"
+const refLink =`${link}?subid=${subid}&subid1=${subid1}&subid2=${subid2}`;
+
+console.log(refLink)
 
 const rewardUserProfitRate =  0.5; // 50% percent for user
 
@@ -37,7 +43,7 @@ const [showDesc, setShowDesc] = useState(false)
             </div>
         </>
       }
-      <RectButton text="open & play" link={`#`}/>
+      <RectButton text="open & play" link={`${refLink}`}/>
     </div>
   </div>
 

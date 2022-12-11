@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app">
       
-     <header>
+     <header className='app__header'>
         BUDDY POINTS
         
      </header>
